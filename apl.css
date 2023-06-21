@@ -1,0 +1,58 @@
+/*CSS file for Both*/
+
+/*font*/
+@font-face {
+    font-family: 'SanFranciscoR';
+    src: url('Fonts\SFNSText-Regular.otf') format('truetype');
+}
+
+@font-face {
+   font-family: 'SanFranciscoB';
+   src: url('Fonts\SFNSText-Bold.otf') format('truetype');
+}
+
+body{
+	background-color:#000000;
+	color:#FFFFFF;
+	font-family: 'SanFranciscoR', sans-serif;
+}
+
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  float:middle;
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+}
+
+.col {
+  flex: 1;
+  padding-left: 150px;
+  padding-top: 0;
+ 
+  
+}
+
+.left-align {
+  text-align: right;
+}
+
+.right-align {
+  text-align: left;
+}
+
+
+.buttonB{
+  border-radius: 30px;
+  padding: 12px 28px;
+  background-color: #FFFFFF; 
+  color: black;
+  border: none;
+  font-size: 24px;
+  font-family: 'SanFranciscoB', sans-serif;
+  font-weight: bold;
+}
